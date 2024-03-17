@@ -52,4 +52,13 @@ def ogrListeSil():
         print(ogrencier)
         i += 1
 ogrListeSil()
-        
+
+def ogrListeSil():
+    sayi2 = int(input("Kaç tane öğrenci sileceksiniz: "))
+    i = 0
+    while i < sayi2:
+        cokluSilme = input("Silinecek olan öğrencilerin adını ve soyadını giriniz: ")
+        ogrencier.remove(cokluSilme)
+        print(ogrencier)
+        i += 1
+ogrListeSil()
